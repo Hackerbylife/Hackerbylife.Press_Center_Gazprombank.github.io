@@ -1,0 +1,80 @@
+body {
+  font-family: "Noto Sans", "Arial", sans-serif;
+  color: #1e222e;
+  letter-spacing: 0;
+}
+
+.banner-subscription {
+  width: 420px;
+  min-height: 220px;
+  padding: 20px;
+  border-radius: 12px;
+  background: #f4f6fa;
+
+  background-repeat: no-repeat;
+  background-image: url("https://i.ibb.co/7xFZjzf9/image-205.png");
+  background-size: cover;
+  background-position: center;
+}
+
+/*Для Баннера с Кнопкой пописаться*/
+.banner-subscription-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  margin: 0 auto 10px 0;
+  max-width: 220px;
+  color: #1e222e;
+}
+
+.banner-subscription__paragraph {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  margin: 0 0 60px;
+}
+
+.banner-subscription__link {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #476bf0;
+  display: block;
+  font-weight: 500;
+  font-size: 14px;
+  width: 115px;
+  text-align: centr;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+/*Для Крточек с новостями*/
+.news-card {
+  background-color: #fff;
+}
+
+.news-card__img {
+  width: 740px;
+  height: 100px;
+}
+
+.news-card__date {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #696e82;
+  margin: 0 0 10px;
+  display: block;
+}
+
+.news-card__title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.news-card__link {
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 15px;
+  line-height: 22px;
+}
